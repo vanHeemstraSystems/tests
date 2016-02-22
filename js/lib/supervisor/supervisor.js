@@ -1,6 +1,6 @@
-var pkg = require('../package.json')
-var common = require('../lib/common')
-var watch = require('../lib/watch')
+var pkg = require('../../../../package.json') /* the package.json in the root of the repository, e.g. kick */
+var common = require('./common')
+var watch = require('./watch')
 var usage = require('usage')
 var fs = require('fs')
 var crypto = require('crypto')
